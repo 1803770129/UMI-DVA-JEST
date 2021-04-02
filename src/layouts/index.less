@@ -1,0 +1,73 @@
+// @media screen and (max-width: @screen-xs) {
+// }
+
+// @media screen and (max-width: @screen-sm) {
+// }
+
+// @media screen and (max-width: @screen-md) {
+// }
+
+// @media screen and (max-width: @screen-lg) and (min-width: @screen-md) {
+// }
+
+// @media screen and (max-width: @screen-xl) {
+// }
+
+// @media screen and (max-width: 1400px) {
+// }
+@import '~antd/lib/style/themes/default.less';
+
+.header {
+    background: #fff;
+    padding: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.header_logo{
+    line-height: 64px;
+    font-size: 30px;
+    color: @primary-color;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+.divider{
+    height: .9em;
+    width: 1px;
+    vertical-align: middle;
+    position: relative;
+    top: -.06em;
+    display: inline-block;
+    height: .9em;
+    background: #e8e8e8;
+}
+.content {
+    min-height: 280px;
+    // overflow-y: auto;
+}
+
+i.trigger {
+    font-size: 20px;
+    line-height: 64px;
+    transition: all 0.3s, padding 0s;
+    padding: 0 24px;
+    &:hover {
+        background: #F5F5F5;
+    }
+}
+
+.topRight{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dropDownMenu{
+    line-height: 64px;
+    padding:0 20px;
+    display: inline-block;
+}
+.dropDownMenu:hover{
+    background: #F5F5F5;
+}
+.messageIcon{
+    font-size: 20px !important;
+}

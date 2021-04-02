@@ -1,0 +1,38 @@
+@import '~antd/lib/style/themes/default.less';
+.table_content{
+    min-height: 300px;
+    margin-top: -1px;
+    :global {
+        .ant-table-placeholder{
+            min-height: 305px;
+        }
+        .ant-table-without-column-header.ant-table-bordered.ant-table-empty .ant-table-placeholder{
+            border-radius: 0;
+            border-top: none;
+        }
+    }
+}
+
+.table_content_header{
+    :global {
+        .ant-table-placeholder{
+            display: none;
+        }
+        .ant-table-header{
+            border-bottom: solid 1px #E8E8E8; 
+        }
+        .ant-table-thead th:last-child > .ant-table-header-column{
+            margin-right: 29px;
+        }
+        .ant-table-without-column-header.ant-table-bordered.ant-table-empty .ant-table-placeholder{
+            border-radius: 0;
+            border-top: none;
+        }
+    }
+}
+
+
+.filter_list{
+    max-height: 300px;
+    overflow-y: auto;
+}

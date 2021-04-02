@@ -1,0 +1,35 @@
+@import '~antd/lib/style/themes/default.less';
+.login_bg {
+    background-image: url(../../assets/img/user_bg.png);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    :global {
+        .login_box {
+            margin: 130px auto 0 auto;
+            width: 450px;
+            background-color: #fff;
+            padding: 0 45px 45px;
+            box-shadow: 0 1px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo {
+            color: @primary-color;
+            font-size: 100px;
+        }
+
+        .submit {
+            width: 100%;
+            margin-top: 24px;
+        }
+
+        .icon {
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.25);
+        }
+
+        .ant-input-affix-wrapper .ant-input {
+            padding-left: 50px;
+        }
+    }
+}

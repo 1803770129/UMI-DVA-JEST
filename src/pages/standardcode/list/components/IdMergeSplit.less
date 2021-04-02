@@ -1,0 +1,53 @@
+@import '~antd/lib/style/themes/default.less';
+.row_title{
+    align-items: center;
+}
+.title-head-pic{
+    color: @blue-6;
+    font-size: 36px;
+    opacity: .6;
+  }
+  .title-head-pic:active, .title-head-pic:hover{
+    opacity: 1;
+}
+.content{
+  :global {
+    .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+      padding-right: 17px;
+    }
+  }
+}
+
+.substitution_status{
+  :global {
+    .ant-form-item-label{
+      border: solid 1px #DDD;
+      line-height: 32px;
+      height: 32px;
+      display: inline-block;
+      vertical-align: middle!important;
+      border-right: none;
+      padding-left: 10px;
+      background-color: #F5F5F5;
+      border-radius: 4px;
+      margin-right: -10px;
+      padding-right: 10px;
+    }
+    .ant-form-item-control-wrapper{
+      vertical-align: middle!important;
+    }
+  }
+}
+
+.code_row{
+  word-break:break-all;
+}
+
+.title-head-img{
+  font-size: 20px;
+  opacity: .6;
+  margin-right: 5px;
+}
+.title-head-img:active, .title-head-img:hover{
+  opacity: 1;
+}

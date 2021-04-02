@@ -1,0 +1,71 @@
+@import '~antd/lib/style/themes/default.less';
+.formRow {
+    align-items: center;
+}
+.cascader{
+    min-width: 350px;
+}
+.is_row_disabled{
+    cursor: not-allowed;
+    background-color: #F1F1F1;
+    
+}
+
+.table_content{
+    :global {
+        .ant-table-tbody > tr.ant-table-row-selected td{
+            color: #333;
+            background-color: #F1F1F1;
+        }
+        .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+            overflow-y: scroll!important;
+        }
+        .ant-table-content .ant-table-fixed-left .ant-table-header{
+            overflow-y: hidden!important;
+           
+        }
+    }
+}
+
+.table_content_isData{
+    :global {
+        .ant-table-content .ant-table-fixed-left .ant-table-header{
+            overflow-y: hidden!important;
+        }
+        .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+            padding-right: 17px;
+        }
+    }
+}
+
+.expandColumns_col{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.expandColumns_col:hover{
+    background-color: #F9F9F9;
+}
+
+.edit_icon{
+    cursor: pointer;
+}
+.edit_icon_dis{
+    cursor: not-allowed !important;
+    color: #CCC;
+}
+.desc_text{
+    width: 90px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.icon_close{
+    color:@blue-6 !important;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+  }

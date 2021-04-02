@@ -1,0 +1,70 @@
+@import '~antd/lib/style/themes/default.less';
+.content{
+    :global {
+        .ant-card-head-title{
+            overflow: initial;
+            white-space: normal;
+        }
+        .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+          padding: 16px 8px;
+          word-break: break-all;
+        }
+        .ant-table-thead > tr > th .anticon-filter, .ant-table-thead > tr > th .ant-table-filter-icon{
+          width: 24px;
+        }
+        .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters, .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters{
+          padding-right: 10px;
+        }
+    }
+}
+.code_tag{
+    margin-bottom: 5px;
+}
+
+.table_header{
+    margin-bottom: -1px;
+    :global {
+      .ant-table-placeholder {
+        display: none;
+      }
+      .ant-table-title{
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+    }
+}
+
+.column-search-props__list {
+    background-color: #fff;
+    max-height: 300px;
+    overflow-y: auto;
+    :global {
+      .ant-list-item {
+        padding: 8px 10px;
+        cursor: pointer;
+    }
+    .ant-list-item:active {
+        background-color: #eee;
+    }
+    }
+}
+
+.icon_close{
+  color:@blue-6 !important;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.p_loading{
+  min-height: 200px;
+  line-height: 200px;
+  text-align: center;
+  :global {
+    .iconfont{
+      font-size: 30px;
+      color: #CCC;
+    }
+  }
+}

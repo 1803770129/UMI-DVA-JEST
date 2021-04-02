@@ -1,0 +1,46 @@
+@import '~antd/lib/style/themes/default.less';
+.table_content{
+    min-height: 190px;
+    margin-top: -1px;
+    :global {
+        .ant-table-placeholder{
+            min-height: 190px;
+        }
+        
+        .ant-table-without-column-header.ant-table-bordered.ant-table-empty .ant-table-placeholder{
+            border-radius: 0;
+            border-top: none;
+        }
+    }
+}
+
+.table_content_header{
+    :global {
+        .ant-table-placeholder{
+            display: none;
+        }
+        .ant-table-header{
+            border-bottom: solid 1px #E8E8E8; 
+        }
+        .ant-table-thead th:last-child > div{
+            margin-right: 20px;
+        }
+        .ant-table-without-column-header.ant-table-bordered.ant-table-empty .ant-table-placeholder{
+            border-radius: 0;
+            border-top: none;
+        }
+    }
+}
+
+
+.title-head-pic {
+    color: @blue-6;
+    font-size: 36px;
+    opacity: .6;
+}
+
+.title-head-pic:active,
+.title-head-pic:hover {
+    opacity: 1;
+}
+

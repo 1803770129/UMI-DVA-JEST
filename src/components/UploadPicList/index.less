@@ -1,0 +1,110 @@
+
+.help {
+    color: red;
+}
+
+.upload_list {
+    display: flex;
+}
+
+.upload_list_item:hover {
+  cursor: w-resize;
+  background: transparent;
+  .upload_icon_box, .upload_list_box::before {
+      opacity: 1;
+  }
+}
+.upload_list_box::before {
+  position: absolute;
+  z-index: 1;
+  width: 99%;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s;
+  content: ' ';
+}
+
+.upload_list_box {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  border: solid 1px #CCC;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload_list_item {
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 8px 8px 0;
+}
+
+.upload_icon_box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.upload_list_img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.upload_icon{
+  color: white;
+  margin: 4px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.upload_card {
+  display: table;
+  width: 104px;
+  height: 104px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload_card:hover {
+  border-color: rgb(24, 144, 255);
+}
+.upload_card_box {
+  width: 100%;
+  i {
+      font-size: 32px;
+      color: #999;
+  }
+
+  .upload-text {
+      margin-top: 8px;
+      color: #666;
+  }
+}
+
+.upload_card_box_middle {
+  :global{
+    .anticon{
+      vertical-align: middle;
+    }
+  }
+  
+}

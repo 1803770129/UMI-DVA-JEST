@@ -1,0 +1,1458 @@
+[
+  {
+    "key": "base",
+    "name": "基本参数",
+    "list": [
+      {
+        "key": "cm_brand_country",
+        "name": "车系国别"
+      },
+      {
+        "key": "cm_countries",
+        "name": "国别"
+      },
+      {
+        "key": "cm_producer_type",
+        "name": "国产合资进口"
+      },
+      {
+        "key": "cm_brand",
+        "name": "品牌"
+      },
+      {
+        "key": "cm_factory",
+        "name": "主机厂"
+      },
+      {
+        "key": "cm_car",
+        "name": "车系"
+      },
+      {
+        "key": "cm_model",
+        "name": "车型"
+      },
+      {
+        "key": "cm_conf_level",
+        "name": "配置等级"
+      },
+      {
+        "key": "cm_model_year",
+        "name": "年款"
+      },
+      {
+        "key": "cm_displacement",
+        "name": "排量"
+      },
+      {
+        "key": "cm_fuel_type",
+        "name": "动力类型(燃油类型)"
+      },
+      {
+        "key": "cm_emission",
+        "name": "排放标准"
+      },
+      {
+        "key": "cm_car_type",
+        "name": "车辆类型"
+      },
+      {
+        "key": "cm_body_type",
+        "name": "车体类型"
+      },
+      {
+        "key": "cm_sales_year",
+        "name": "上市年份"
+      },
+      {
+        "key": "cm_sales_month",
+        "name": "上市月份"
+      },
+      {
+        "key": "cm_stop_year",
+        "name": "停产年份"
+      },
+      {
+        "key": "cm_driving_mode",
+        "name": "驱动方式"
+      },
+      {
+        "key": "cm_engine_model",
+        "name": "发动机型号"
+      },
+      {
+        "key": "cm_engine_start_stop",
+        "name": "发动机启停"
+      },
+      
+      {
+        "key": "cm_chassis_model",
+        "name": "底盘号"
+      },
+      {
+        "key": "cm_gearbox",
+        "name": "变速箱类型"
+      },
+      {
+        "key": "cm_gearbox_drywet",
+        "name": "变速箱模式"
+      },
+      {
+        "key": "cm_gearbox_model",
+        "name": "变速箱型号"
+      },
+      {
+        "key": "cm_engine_position",
+        "name": "发动机位"
+      },
+      {
+        "key": "cm_engine_abstract",
+        "name": "发动机简介"
+      },
+      {
+        "key": "cm_max_power",
+        "name": "最大功率kW"
+      },
+      {
+        "key": "cm_product_status",
+        "name": "生产状态"
+      },
+      {
+        "key": "cm_cylinder",
+        "name": "气缸容积"
+      },
+      {
+        "key": "cm_intake_form",
+        "name": "进气形式"
+      },
+      {
+        "key": "cm_fuel_label",
+        "name": "燃油标号"
+      },
+      {
+        "key": "cm_engine_horsepower",
+        "name": "最大马力"
+      },
+      {
+        "key": "cm_cylinder_arrangement",
+        "name": "气缸排列"
+      },
+      {
+        "key": "cm_cylinder_num",
+        "name": "气缸数(个)"
+      },
+      {
+        "key": "cm_spark_plug_num",
+        "name": "火花塞数量"
+      },
+      {
+        "key": "cm_per_cylinder_num",
+        "name": "每缸气门数(个)"
+      },
+      {
+        "key": "cm_block_num",
+        "name": "档位数"
+      },
+      {
+        "key": "cm_front_brake_type",
+        "name": "前制动器类型"
+      },
+      {
+        "key": "cm_rear_brake_type",
+        "name": "后制动器类型"
+      },
+      {
+        "key": "cm_support_type",
+        "name": "助力类型"
+      },
+      {
+        "key": "cm_park_brake_type",
+        "name": "驻车制动类型"
+      },
+      {
+        "key": "cm_body_wheelbase",
+        "name": "轴距(mm)"
+      },
+      {
+        "key": "cm_door_num",
+        "name": "车门数"
+      },
+      {
+        "key": "cm_seat_num",
+        "name": "车座数(个)"
+      },
+      {
+        "key": "cm_front_wheel",
+        "name": "前轮胎规格"
+      },
+      {
+        "key": "cm_rear_wheel",
+        "name": "后轮胎规格"
+      },
+      {
+        "key": "cm_front_wheel_hub",
+        "name": "前轮毂规格"
+      },
+      {
+        "key": "cm_rear_wheel_hub",
+        "name": "后轮毂规格"
+      },
+      {
+        "key": "cm_hub_material",
+        "name": "轮毂材料"
+      },
+      {
+        "key": "cm_spare_wheel",
+        "name": "备胎规格"
+      },
+      {
+        "key": "cm_electric_skylight",
+        "name": "电动天窗"
+      },
+      {
+        "key": "cm_panoramic_sunroof",
+        "name": "全景天窗"
+      },
+      {
+        "key": "cm_near_lamp",
+        "name": "近光灯"
+      },
+      {
+        "key": "cm_far_lamp",
+        "name": "远光灯"
+      },
+      {
+        "key": "cm_front_fog",
+        "name": "前雾灯"
+      },
+      {
+        "key": "cm_rear_wiper",
+        "name": "后雨刷"
+      },
+      {
+        "key": "cm_air_control_mode",
+        "name": "空调控制方式"
+      },
+      {
+        "key": "cm_trans_type",
+        "name": "变速器类型 自动,手动"
+      },
+      {
+        "key": "cm_model_price",
+        "name": "车辆指导价"
+      },
+      {
+        "key": "cm_front_suspension_type",
+        "name": "前悬挂类型"
+      },
+      {
+        "key": "cm_rear_suspension_type",
+        "name": "后悬挂类型"
+      },
+      {
+        "key": "cm_steering_engine_form",
+        "name": "转向机形式"
+      },
+      {
+        "key": "cm_abs_antilock",
+        "name": "ABS防抱死"
+      },
+      {
+        "key": "cm_engineoil_type",
+        "name": "基础油类型"
+      },
+      {
+        "key": "cm_engineoil_volume",
+        "name": "保养加注量"
+      },
+      {
+        "key": "cm_brakeoil_volume",
+        "name": "制动液(刹车油)加注量"
+      },
+      {
+        "key": "cm_steeroil_volume",
+        "name": "转向助力液加注量"
+      },
+      {
+        "key": "cm_airrefrigerant_volume",
+        "name": "空调制冷剂加注量"
+      },
+      {
+        "key": "cm_coolant_volume",
+        "name": "冷却液加注量"
+      },
+      {
+        "key": "cm_brakeoil_standard",
+        "name": "制动液(刹车油)规格"
+      },
+      {
+        "key": "cm_steeroil_standard",
+        "name": "转向助力液规格"
+      },
+      {
+        "key": "cm_airrefrigerant_standard",
+        "name": "空调制冷剂规格"
+      },
+      {
+        "key": "cm_coolant_standard",
+        "name": "冷却液规格"
+      }
+    ]
+  },
+  {
+    "key": "body",
+    "name": "车身参数",
+    "list": [
+      {
+        "key": "cm_body_length",
+        "name": "长度(mm)"
+      },
+      {
+        "key": "cm_body_width",
+        "name": "宽度(mm)"
+      },
+      {
+        "key": "cm_body_height",
+        "name": "高度(mm)"
+      },
+      {
+        "key": "cm_body_wheelbase",
+        "name": "轴距(mm)"
+      },
+      {
+        "key": "cm_front_wheeldistince",
+        "name": "前轮距(mm)"
+      },
+      {
+        "key": "cm_rear_wheeldistince",
+        "name": "后轮距(mm)"
+      },
+      {
+        "key": "cm_body_structure",
+        "name": "车身结构"
+      },
+      {
+        "key": "cm_door_num",
+        "name": "车门数"
+      },
+      {
+        "key": "cm_seat_num",
+        "name": "车座数(个)"
+      },
+      {
+        "key": "cm_tank_volume",
+        "name": "油箱容积(L)"
+      },
+      {
+        "key": "cm_trunk_volume",
+        "name": "行李箱容积(L)"
+      },
+      {
+        "key": "cm_curb_weight",
+        "name": "整备质量(kg)"
+      },
+      {
+        "key": "cm_ground_clearance",
+        "name": "实测离地间隙(mm)"
+      },
+      {
+        "key": "cm_heardware_feature",
+        "name": "硬件特征"
+      },
+      {
+        "key": "cm_chassis_area",
+        "name": "底盘面积"
+      },
+      {
+        "key": "cm_tonnage",
+        "name": "核定载质量(吨位)"
+      },
+      {
+        "key": "cm_dimensions",
+        "name": "外观尺寸长*宽*高(mm)"
+      },
+      {
+        "key": "cm_max_torque",
+        "name": "最大扭矩(N.m)"
+      },
+      {
+        "key": "cm_max_speed",
+        "name": "最高车速(km/h)"
+      },
+      {
+        "key": "cm_official_acceleration",
+        "name": "官方0-100km/h加速(s)"
+      },
+      {
+        "key": "cm_measured_acceleration",
+        "name": "实测0-100km/h加速(s)"
+      },
+      {
+        "key": "cm_measured_brake",
+        "name": "实测0-100km/h制动(m)"
+      },
+      {
+        "key": "cm_overall_oilwear",
+        "name": "工信部综合油耗(L/100km)"
+      },
+      {
+        "key": "cm_measured_oilwear",
+        "name": "实测油耗(L/100km)"
+      }
+    ]
+  },
+  {
+    "key": "motor",
+    "name": "电机",
+    "list": [
+      {
+        "key": "cm_motor_type",
+        "name": "电机类型"
+      },
+      {
+        "key": "cm_motor_power",
+        "name": "电机功率(kW)"
+      },
+      {
+        "key": "cm_motor_torque",
+        "name": "电机扭矩(N.m)"
+      },
+      {
+        "key": "cm_front_motor_power",
+        "name": "前电机功率(kW)"
+      },
+      {
+        "key": "cm_front_motor_torque",
+        "name": "前电机扭矩(N.m)"
+      },
+      {
+        "key": "cm_rear_motor_power",
+        "name": "后电机功率(kW)"
+      },
+      {
+        "key": "cm_rear_motor_torque",
+        "name": "后电机扭矩(N.m)"
+      },
+      {
+        "key": "cm_system_power",
+        "name": "系统综合功率(kW)"
+      },
+      {
+        "key": "cm_system_torque",
+        "name": "系统综合扭矩(N.m)"
+      },
+      {
+        "key": "cm_battery_type",
+        "name": "电池类型"
+      },
+      {
+        "key": "cm_extension_mile",
+        "name": "工信部续航里程(km)"
+      },
+      {
+        "key": "cm_battery_capacity",
+        "name": "电池容量(kWh)"
+      },
+      {
+        "key": "cm_white_power_consumption",
+        "name": "白功率耗电量(kWh/100km)"
+      },
+      {
+        "key": "cm_battery_quality",
+        "name": "电池组质保"
+      },
+      {
+        "key": "cm_battery_charge_time",
+        "name": "电池充电时间"
+      },
+      {
+        "key": "cm_fast_charge",
+        "name": "快充电量(%)"
+      },
+      {
+        "key": "cm_charge_pile_price",
+        "name": "充电桩价格"
+      }
+    ]
+  },
+  {
+    "key": "engine",
+    "name": "发动机参数",
+    "list": [
+      {
+        "key": "cm_engine_model",
+        "name": "发动机型号"
+      },
+      {
+        "key": "cm_displacement_ml",
+        "name": "气缸容积(ml)"
+      },
+      {
+        "key": "cm_displacement_l",
+        "name": "排量(l)"
+      },
+      {
+        "key": "cm_intake_form",
+        "name": "进气形式"
+      },
+      {
+        "key": "cm_cylinder_arrangement",
+        "name": "气缸排列形式"
+      },
+      {
+        "key": "cm_cylinder_num",
+        "name": "气缸数(个)"
+      },
+      {
+        "key": "cm_per_cylinder_num",
+        "name": "每缸气门数(个)"
+      },
+      {
+        "key": "cm_compression_ratio",
+        "name": "压缩比"
+      },
+      {
+        "key": "cm_gas_mechanism",
+        "name": "配气机构"
+      },
+      {
+        "key": "cm_travel",
+        "name": "行程(mm)"
+      },
+      {
+        "key": "cm_bore",
+        "name": "缸径(mm)"
+      },
+      {
+        "key": "cm_engine_horsepower",
+        "name": "最大马力(Ps)"
+      },
+      {
+        "key": "cm_engine_power",
+        "name": "最大功率(kW)"
+      },
+      {
+        "key": "cm_engine_power_speed",
+        "name": "最大功率转速(rpm)"
+      },
+      {
+        "key": "cm_engine_torque",
+        "name": "最大扭矩(N.m)"
+      },
+      {
+        "key": "cm_engine_torque_speed",
+        "name": "最大扭矩转速(rpm)"
+      },
+      {
+        "key": "cm_engine_technology",
+        "name": "发动机特有技术"
+      },
+      {
+        "key": "cm_fuel_type",
+        "name": "动力类型(燃油类型)"
+      },
+      {
+        "key": "cm_fuel_label",
+        "name": "燃油标号"
+      },
+      {
+        "key": "cm_oil_supply_mode",
+        "name": "供油方式"
+      },
+      {
+        "key": "cm_engine_head_material",
+        "name": "缸盖材料"
+      },
+      {
+        "key": "cm_engine_material",
+        "name": "缸体材料"
+      },
+      {
+        "key": "cm_env_standard",
+        "name": "环保标准"
+      },
+      {
+        "key": "cm_emission_standard",
+        "name": "排放依据标准"
+      },
+      {
+        "key": "cm_engine_position",
+        "name": "发动机位"
+      },
+      {
+        "key": "cm_power_ratio_mess",
+        "name": "比功率(最大功率(kw)/整备质量(kg))"
+      },
+      {
+        "key": "cm_power_ratio_displacement",
+        "name": "升功率比(最大功率(kw)/排量(L))"
+      }
+    ]
+  },
+  {
+    "key": "gearbox",
+    "name": "变速箱",
+    "list": [
+      {
+        "key": "cm_block_num",
+        "name": "档位数"
+      },
+      {
+        "key": "cm_manual_auto",
+        "name": "手动自动"
+      },
+      {
+        "key": "cm_gearbox_type",
+        "name": "变速箱类型"
+      },
+      {
+        "key": "cm_gearbox_abstract",
+        "name": "变速箱简介"
+      },
+      {
+        "key": "cm_gearbox_model",
+        "name": "变速箱型号"
+      }
+    ]
+  },
+  {
+    "key": "chassis",
+    "name": "车型信息-底盘转向",
+    "list": [
+      {
+        "key": "cm_driving_mode",
+        "name": "驱动方式"
+      },
+      {
+        "key": "cm_front_suspension_type",
+        "name": "前悬架类型"
+      },
+      {
+        "key": "cm_rear_suspension_type",
+        "name": "后悬架类型"
+      },
+      {
+        "key": "cm_support_type",
+        "name": "助力类型"
+      },
+      {
+        "key": "cm_chassis_structure",
+        "name": "车体(底盘)结构"
+      },
+      {
+        "key": "cm_chassis_model",
+        "name": "底盘号"
+      },
+      {
+        "key": "cm_driving_tech",
+        "name": "驱动技术"
+      }
+    ]
+  },
+  {
+    "key": "wheel",
+    "name": "车型信息-底盘",
+    "list": [
+      {
+        "key": "cm_front_brake_type",
+        "name": "前制动器类型"
+      },
+      {
+        "key": "cm_rear_brake_type",
+        "name": "后制动器类型"
+      },
+      {
+        "key": "cm_park_brake_type",
+        "name": "驻车制动类型"
+      },
+      {
+        "key": "cm_front_wheel",
+        "name": "前轮胎规格"
+      },
+      {
+        "key": "cm_rear_wheel",
+        "name": "后轮胎规格"
+      },
+      {
+        "key": "cm_spare_wheel",
+        "name": "备胎规格"
+      },
+      {
+        "key": "cm_four_drive_form",
+        "name": "四驱形式"
+      },
+      {
+        "key": "cm_front_wheel_hub",
+        "name": "前轮毂规格"
+      },
+      {
+        "key": "cm_rear_wheel_hub",
+        "name": "后轮毂规格"
+      },
+      {
+        "key": "cm_hub_material",
+        "name": "轮毂材料"
+      }
+    ]
+  },
+  {
+    "key": "safety",
+    "name": "安全装置",
+    "list": [
+      {
+        "key": "cm_dirver_airbag",
+        "name": "驾驶座安全气囊"
+      },
+      {
+        "key": "cm_copilot_airbag",
+        "name": "副驾驶安全气囊"
+      },
+      {
+        "key": "cm_front_side_airbag",
+        "name": "前排侧气囊"
+      },
+      {
+        "key": "cm_rear_side_airbag",
+        "name": "后排侧气囊"
+      },
+      {
+        "key": "cm_front_head_airbag",
+        "name": "前排头部气囊(气帘)"
+      },
+      {
+        "key": "cm_rear_head_airbag",
+        "name": "后排头部气囊(气帘)"
+      },
+      {
+        "key": "cm_knee_airbag",
+        "name": "膝部气囊"
+      },
+      {
+        "key": "cm_pressure_monitor",
+        "name": "胎压监测装置"
+      },
+      {
+        "key": "cm_zero_pressure",
+        "name": "零胎压继续行驶"
+      },
+      {
+        "key": "cm_seatbelt_hint",
+        "name": "安全带未系提示"
+      },
+      {
+        "key": "cm_isofix_interface",
+        "name": "ISOFIX儿童座椅接口"
+      },
+      {
+        "key": "cm_keyless_entry",
+        "name": "无钥匙进入系统"
+      },
+      {
+        "key": "cm_keyless_start",
+        "name": "无钥匙启动系统"
+      },
+      {
+        "key": "cm_remote_key",
+        "name": "遥控钥匙"
+      },
+      {
+        "key": "cm_car_lock",
+        "name": "车内中控锁"
+      },
+      {
+        "key": "cm_engine_eas",
+        "name": "发动机电子防盗"
+      },
+      {
+        "key": "cm_remote_start",
+        "name": "远程启动"
+      },
+      {
+        "key": "cm_latch_interface",
+        "name": "LATCH座椅接口(兼容ISOFIX)"
+      },
+      {
+        "key": "cm_abs_antilock",
+        "name": "ABS防抱死"
+      },
+      {
+        "key": "cm_brake_force",
+        "name": "制动力分配(EBD/CBC等)"
+      },
+      {
+        "key": "cm_brake_assistant",
+        "name": "刹车辅助(EBA/BAS/BA等)"
+      },
+      {
+        "key": "cm_traction_control",
+        "name": "牵引力控制(ASR/TCS/TRC等)"
+      },
+      {
+        "key": "cm_body_control",
+        "name": "车身稳定控制(ESC/ESP/DSC等)"
+      },
+      {
+        "key": "cm_line_auxiliary",
+        "name": "并线辅助"
+      },
+      {
+        "key": "cm_ldws",
+        "name": "车道偏离预警系统"
+      },
+      {
+        "key": "cm_active_brake_system",
+        "name": "主动刹车/主动安全系统"
+      },
+      {
+        "key": "cm_night_vision",
+        "name": "夜视系统"
+      },
+      {
+        "key": "cm_fatigue_drive",
+        "name": "疲劳驾驶提示"
+      },
+      {
+        "key": "cm_burglar",
+        "name": "防盗标识"
+      }
+    ]
+  },
+  {
+    "key": "control",
+    "name": "操控装置",
+    "list": [
+      {
+        "key": "cm_front_radar",
+        "name": "前驻车雷达"
+      },
+      {
+        "key": "cm_rear_radar",
+        "name": "后驻车雷达"
+      },
+      {
+        "key": "cm_video_image",
+        "name": "倒车视频影像"
+      },
+      {
+        "key": "cm_panoramic_camera",
+        "name": "全景摄像头"
+      },
+      {
+        "key": "cm_cruise_control",
+        "name": "定速巡航"
+      },
+      {
+        "key": "cm_adaptive_cruise",
+        "name": "自适应巡航"
+      },
+      {
+        "key": "cm_auto_parking_space",
+        "name": "自动泊车入位"
+      },
+      {
+        "key": "cm_engine_start_stop",
+        "name": "发动机启停技术"
+      },
+      {
+        "key": "cm_autopilot",
+        "name": "自动驾驶技术"
+      },
+      {
+        "key": "cm_hill_assist",
+        "name": "上坡辅助"
+      },
+      {
+        "key": "cm_auto_parking",
+        "name": "自动驻车"
+      },
+      {
+        "key": "cm_hill_descent_control",
+        "name": "陡坡缓降"
+      },
+      {
+        "key": "cm_variable_suspension",
+        "name": "可变悬架"
+      },
+      {
+        "key": "cm_air_suspension",
+        "name": "空气悬架"
+      },
+      {
+        "key": "cm_induction_suspension",
+        "name": "电磁感应悬架"
+      },
+      {
+        "key": "cm_variable_steer_ratio",
+        "name": "可变转向比"
+      },
+      {
+        "key": "cm_front_axle_slip",
+        "name": "前桥限滑差速器/差速锁"
+      },
+      {
+        "key": "cm_central_lock",
+        "name": "中央差速器锁止功能"
+      },
+      {
+        "key": "cm_rear_axle_slip",
+        "name": "后桥限滑差速器/差速锁"
+      },
+      {
+        "key": "cm_overall_steer",
+        "name": "整体主动转向系统"
+      },
+      {
+        "key": "cm_parking_assist",
+        "name": "泊车辅助"
+      }
+    ]
+  },
+  {
+    "key": "external",
+    "name": "外部配置",
+    "list": [
+      {
+        "key": "cm_electric_skylight",
+        "name": "电动天窗"
+      },
+      {
+        "key": "cm_panoramic_sunroof",
+        "name": "全景天窗"
+      },
+      {
+        "key": "cm_solar_skylight",
+        "name": "太阳能天窗"
+      },
+      {
+        "key": "cm_sport_suite",
+        "name": "运动外观套件"
+      },
+      {
+        "key": "cm_aluminum_alloy",
+        "name": "铝合金轮圈"
+      },
+      {
+        "key": "cm_electric_door",
+        "name": "电动吸合门"
+      },
+      {
+        "key": "cm_sideslip",
+        "name": "侧滑门"
+      },
+      {
+        "key": "cm_electric_box",
+        "name": "电动后备箱"
+      },
+      {
+        "key": "cm_inductive_box",
+        "name": "感应后备箱"
+      },
+      {
+        "key": "cm_luggage_rack",
+        "name": "车顶行李架"
+      }
+    ]
+  },
+  {
+    "key": "internal",
+    "name": "内部配置",
+    "list": [
+      {
+        "key": "cm_cortex_bearcircle",
+        "name": "皮质方向盘"
+      },
+      {
+        "key": "cm_updown_bearcircle",
+        "name": "方向盘上下调节"
+      },
+      {
+        "key": "cm_frontback_bearcircle",
+        "name": "方向盘前后调节"
+      },
+      {
+        "key": "cm_electric_bearcircle",
+        "name": "方向盘电动调节"
+      },
+      {
+        "key": "cm_function_bearcircle",
+        "name": "多功能方向盘"
+      },
+      {
+        "key": "cm_bearcircle_shift",
+        "name": "方向盘换挡"
+      },
+      {
+        "key": "cm_bearcircle_heat",
+        "name": "方向盘加热"
+      },
+      {
+        "key": "cm_bearcircle_memory",
+        "name": "方向盘记忆"
+      },
+      {
+        "key": "cm_display_screen",
+        "name": "行车电脑显示屏"
+      },
+      {
+        "key": "cm_crystal_dashboard",
+        "name": "全液晶仪表盘"
+      },
+      {
+        "key": "cm_hud_number",
+        "name": "HUD抬头数字显示"
+      },
+      {
+        "key": "cm_drive_recorder",
+        "name": "内置行车记录仪"
+      },
+      {
+        "key": "cm_noise_reduction",
+        "name": "主动降噪"
+      },
+      {
+        "key": "cm_wireless_charge",
+        "name": "手机无线充电"
+      }
+    ]
+  },
+  {
+    "key": "seat",
+    "name": "座椅配置",
+    "list": [
+      {
+        "key": "cm_seat_material",
+        "name": "座椅材质"
+      },
+      {
+        "key": "cm_seat_sport_style",
+        "name": "运动风格座椅"
+      },
+      {
+        "key": "cm_seat_updown",
+        "name": "座椅高低调节"
+      },
+      {
+        "key": "cm_waist_adjust",
+        "name": "腰部支撑调节"
+      },
+      {
+        "key": "cm_shoulder_adjust",
+        "name": "肩部支撑调节"
+      },
+      {
+        "key": "cm_driver_electric_adjust",
+        "name": "主驾驶座电动调节"
+      },
+      {
+        "key": "cm_copilot_electric_adjust",
+        "name": "副驾驶座电动调节"
+      },
+      {
+        "key": "cm_two_backrest_adjust",
+        "name": "第二排靠背角度调节"
+      },
+      {
+        "key": "cm_two_seat_move",
+        "name": "第二排座椅移动"
+      },
+      {
+        "key": "cm_back_electric_adjust",
+        "name": "后排座椅电动调节"
+      },
+      {
+        "key": "cm_copilot_back_adjust",
+        "name": "副驾驶位后排可调节按钮"
+      },
+      {
+        "key": "cm_electric_seat_memory",
+        "name": "电动座椅记忆"
+      },
+      {
+        "key": "cm_front_seat_heat",
+        "name": "前排座椅加热"
+      },
+      {
+        "key": "cm_rear_seat_heat",
+        "name": "后排座椅加热"
+      },
+      {
+        "key": "cm_front_seat_aeration",
+        "name": "前排座椅通风"
+      },
+      {
+        "key": "cm_rear_seat_aeration",
+        "name": "后排座椅通风"
+      },
+      {
+        "key": "cm_front_massage",
+        "name": "前排座椅按摩"
+      },
+      {
+        "key": "cm_rear_massage",
+        "name": "后排座椅按摩"
+      },
+      {
+        "key": "cm_two_independent_seat",
+        "name": "第二排独立座椅"
+      },
+      {
+        "key": "cm_two_seat",
+        "name": "第三排座椅"
+      },
+      {
+        "key": "cm_back_ratio_recline",
+        "name": "后排座椅比例放倒"
+      },
+      {
+        "key": "cm_back_whole_recline",
+        "name": "后排座椅整体放倒"
+      },
+      {
+        "key": "cm_front_center_hand",
+        "name": "前座中央扶手"
+      },
+      {
+        "key": "cm_rear_center_hand",
+        "name": "后座中央扶手"
+      },
+      {
+        "key": "cm_back_cupholder",
+        "name": "后排杯架"
+      },
+      {
+        "key": "cm_heat_ice_cupholder",
+        "name": "可加热/制冷杯架"
+      }
+    ]
+  },
+  {
+    "key": "media",
+    "name": "多媒体配置",
+    "list": [
+      {
+        "key": "cm_gps_system",
+        "name": "GPS导航系统"
+      },
+      {
+        "key": "cm_position_service",
+        "name": "定位互动服务"
+      },
+      {
+        "key": "cm_control_screen",
+        "name": "中控台彩色大屏"
+      },
+      {
+        "key": "cm_control_screen_size",
+        "name": "中控台彩色大屏尺寸"
+      },
+      {
+        "key": "cm_lcd_panel_display",
+        "name": "中控液晶屏分屏显示"
+      },
+      {
+        "key": "cm_bluetooth_car_phone",
+        "name": "蓝牙/车载电话"
+      },
+      {
+        "key": "cm_mobile_internet",
+        "name": "手机联网/映射"
+      },
+      {
+        "key": "cm_car_tv",
+        "name": "车载电视"
+      },
+      {
+        "key": "cm_back_crystal_screen",
+        "name": "后排液晶屏"
+      },
+      {
+        "key": "cm_power_supply",
+        "name": "220v/230v电源"
+      },
+      {
+        "key": "cm_external_interface",
+        "name": "外接音源接口"
+      },
+      {
+        "key": "cm_cd_dvd",
+        "name": "CD/DVD"
+      },
+      {
+        "key": "cm_speaker_brand",
+        "name": "扬声器品牌"
+      },
+      {
+        "key": "cm_speaker_number",
+        "name": "扬声器数量"
+      },
+      {
+        "key": "cm_hard_disk",
+        "name": "内置硬盘"
+      },
+      {
+        "key": "cm_human_computer",
+        "name": "人机交互系统"
+      }
+    ]
+  },
+  {
+    "key": "lamp",
+    "name": "灯光配置",
+    "list": [
+      {
+        "key": "cm_near_lamp",
+        "name": "近光灯"
+      },
+      {
+        "key": "cm_far_lamp",
+        "name": "远光灯"
+      },
+      {
+        "key": "cm_led_daytime_lamp",
+        "name": "LED日间行车灯"
+      },
+      {
+        "key": "cm_adaptive_lamp",
+        "name": "自适应远近光"
+      },
+      {
+        "key": "cm_auto_headlamp",
+        "name": "自动头灯"
+      },
+      {
+        "key": "cm_steering_lamp",
+        "name": "转向辅助灯"
+      },
+      {
+        "key": "cm_steering_headlamp",
+        "name": "转向头灯"
+      },
+      {
+        "key": "cm_font_fog_lamp",
+        "name": "前雾灯"
+      },
+      {
+        "key": "cm_high_adjust",
+        "name": "大灯高度可调"
+      },
+      {
+        "key": "cm_cleaning_adjust",
+        "name": "大灯清晰装置"
+      },
+      {
+        "key": "cm_innercar_lamp",
+        "name": "车内氛围灯"
+      }
+    ]
+  },
+  {
+    "key": "glass",
+    "name": "玻璃后视镜",
+    "list": [
+      {
+        "key": "cm_front_electric_window",
+        "name": "前电动车窗"
+      },
+      {
+        "key": "cm_rear_electric_window",
+        "name": "后电动车窗"
+      },
+      {
+        "key": "cm_key_button_lift",
+        "name": "车窗一键升降"
+      },
+      {
+        "key": "cm_anti_pinch_hand",
+        "name": "车窗防夹手功能"
+      },
+      {
+        "key": "cm_anti_ultraviolet",
+        "name": "防紫外线/隔热玻璃"
+      },
+      {
+        "key": "cm_rearview_electric",
+        "name": "后视镜电动调节"
+      },
+      {
+        "key": "cm_rearview_heat",
+        "name": "后视镜加热"
+      },
+      {
+        "key": "cm_inner_rearview_antiglare",
+        "name": "内后视镜自动防眩目"
+      },
+      {
+        "key": "cm_external_rearview_antiglare",
+        "name": "外后视镜自动防眩目"
+      },
+      {
+        "key": "cm_stream_medis_rearview",
+        "name": "流媒体车内后视镜"
+      },
+      {
+        "key": "cm_rearview_electric_fold",
+        "name": "后视镜电动折叠"
+      },
+      {
+        "key": "cm_review_memory",
+        "name": "后视镜记忆"
+      },
+      {
+        "key": "cm_rearwind_sunshade",
+        "name": "后风挡遮阳帘"
+      },
+      {
+        "key": "cm_backside_sunshade",
+        "name": "后排侧遮阳帘"
+      },
+      {
+        "key": "cm_backside_privacy_glass",
+        "name": "后排侧隐私玻璃"
+      },
+      {
+        "key": "cm_sunshade_makeup_mirror",
+        "name": "遮阳板化妆镜"
+      },
+      {
+        "key": "cm_rear_wiper",
+        "name": "后雨刷"
+      },
+      {
+        "key": "cm_induction_wiper",
+        "name": "感应雨刷"
+      }
+    ]
+  },
+  {
+    "key": "airbox",
+    "name": "空调冰箱",
+    "list": [
+      {
+        "key": "cm_air_control_mode",
+        "name": "空调控制方式"
+      },
+      {
+        "key": "cm_back_independent_air",
+        "name": "后排独立空调"
+      },
+      {
+        "key": "cm_back_outlet",
+        "name": "后座出风口"
+      },
+      {
+        "key": "cm_temperature_control",
+        "name": "温度分区控制"
+      },
+      {
+        "key": "cm_air_adjust",
+        "name": "车内空气调节/花粉过滤"
+      },
+      {
+        "key": "cm_vehicle_icebox",
+        "name": "车载冰箱"
+      },
+      {
+        "key": "cm_appearance_color",
+        "name": "外观颜色"
+      },
+      {
+        "key": "cm_interior_color",
+        "name": "内饰颜色"
+      }
+    ]
+  },
+  {
+    "key": "price",
+    "name": "价格",
+    "list": [
+      {
+        "key": "cm_factory_price",
+        "name": "厂商指导价"
+      },
+      {
+        "key": "cm_newcar_price",
+        "name": "新车购置价"
+      },
+      {
+        "key": "cm_compare_price",
+        "name": "类比价"
+      },
+      {
+        "key": "cm_purchase_tax",
+        "name": "购置价含税"
+      },
+      {
+        "key": "cm_compare_tax",
+        "name": "类比价含税"
+      }
+    ]
+  }, {
+    "key": "commercial",
+    "name": "商用车属性",
+    "list": [
+      {
+        "key": "cm_vehicle_body",
+        "name": "车身型式"
+      },
+      {
+        "key": "cm_vehicle_weight",
+        "name": "整备质量（Kg）"
+      },
+      {
+        "key": "cm_driver_airbag",
+        "name": "驾驶座安全气囊"
+      },
+      {
+        "key": "cm_passenger_airbag",
+        "name": "副驾驶安全气囊"
+      },
+      {
+        "key": "cm_front_side_airbag",
+        "name": "前排侧气囊"
+      },
+      {
+        "key": "cm_rear_side_airbag",
+        "name": "后排侧气囊"
+      },
+      {
+        "key": "cm_front_head_airbag",
+        "name": "前排头部气囊（气帘）"
+      },
+      {
+        "key": "cm_rear_head_airbag",
+        "name": "后排头部气囊（气帘）"
+      },
+      {
+        "key": "cm_knee_airbag",
+        "name": "膝部气囊"
+      },
+      {
+        "key": "cm_daytime_lamp",
+        "name": "日间行车灯"
+      },
+      {
+        "key": "cm_auto_lamp",
+        "name": "自动头灯"
+      },
+      {
+        "key": "cm_turn_head_lamp",
+        "name": "转向头灯"
+      },
+      {
+        "key": "cm_gps",
+        "name": "GPS导航"
+      },
+      {
+        "key": "cm_dipped_beam_type",
+        "name": "近光灯类型"
+      },
+      {
+        "key": "cm_high_beam_type",
+        "name": "远光灯类型"
+      },
+      {
+        "key": "cm_vehicle_series",
+        "name": "车系归属分类"
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+.sider {
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  min-height: 100vh;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+  z-index: 100;
+  :global {
+    .ant-menu-vertical > .ant-menu-item, .ant-menu-vertical-left > .ant-menu-item, .ant-menu-vertical-right > .ant-menu-item, .ant-menu-inline > .ant-menu-item, .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title{
+      line-height: 33px;
+      height: 33px;
+      padding-left: 16px !important;
+    } 
+    .ant-menu-vertical .ant-menu-item:not(:last-child), .ant-menu-vertical-left .ant-menu-item:not(:last-child), .ant-menu-vertical-right .ant-menu-item:not(:last-child), .ant-menu-inline .ant-menu-item:not(:last-child) {
+      margin-bottom: 0;
+    }
+
+  }
+}
+
+.menu_logo_box {
+  padding: 20px 20px 0 24px;
+}
+
+.meun_logo {
+  &:before {
+    font-size: 75px;
+    height: 35px;
+    line-height: 35px;
+    color: #FFF;
+    content: '\E6B8';
+    display: block;
+  }
+}
+
+.meun_logo_mini {
+  &:before {
+    font-size: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #FFF;
+    content: '\E6B7';
+    display: block;
+  }
+}
+
+
+:global {
+  .drawer .drawer-content {
+    background: #001529;
+  }
+}
