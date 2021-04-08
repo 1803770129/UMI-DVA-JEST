@@ -40,7 +40,7 @@ export default class IPUnlock extends Component {
             </Col>
           </Row> 
         </Card>
-        <div className="app">hahaha</div>
+        <div className="app" title="appTitle" data-test="container">hahaha</div>
       </Card>
     );
   }

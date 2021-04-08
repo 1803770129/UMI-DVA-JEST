@@ -1,12 +1,18 @@
-import System from '../pages/system/systemfn';
-import ReactDOM from 'react-dom';
-import { mount } from 'enzyme';
-import { Card, Icon, Row, Col} from 'antd';
+import PART from '../pages/system/systemfn/spart';
+import React from 'react';
+import Enzyme,{shallow,mount} from 'enzyme';
+import { connect } from 'dva';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
 it('Systems', () => {
-  // dom 测试
-  // 仅能测试dom中展示的信息，    
-  const div=document.createElement('div');
-  ReactDOM.render(<System />,div);
-  const container = div.getElementsByClassName('app');
-  expect(container.length).toBe(1);
+  const mapStateToProps = (state) => {
+    return {
+      loading:state.loading.effects,
+      ...state.statistics,
+    };
+  
+  };
+  const wrapper = mount(connect(mapStateToProps)(PART));
+  console.log(wrapper);
+      
 });
